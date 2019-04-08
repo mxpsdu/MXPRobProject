@@ -22,7 +22,7 @@ cd ~/catkin_ws/manipulate/kuka_arm/scripts
 投放
 
 
-![Image text](https://github.com/mxpsdu/MXPRobProject/blob/master/new/12.jpg)
+![Image text](https://github.com/mxpsdu/MXPRobProject/blob/master/new/12.png)
 Moveit!的Rviz显示插件，可以看到moveit! 生成的Octmap
 
 

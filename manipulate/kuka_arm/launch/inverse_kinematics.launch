@@ -1,0 +1,6 @@
+<launch>
+  <node name="execution" pkg="kuka_arm" type="execution">
+    <!--set demo value="false" when using IK_server-->
+    <!--<param name="demo" value="true" type="bool"/>-->
+  </node>
+</launch>

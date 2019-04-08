@@ -1,0 +1,5 @@
+<launch>
+
+  <param name="target_description" command="$(find xacro)/xacro --inorder $(find kuka_arm)/urdf/target.urdf.xacro" />
+
+</launch>

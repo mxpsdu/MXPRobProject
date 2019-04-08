@@ -1,0 +1,7 @@
+<launch>
+
+  <param name="target_description" command="$(find xacro)/xacro --inorder $(find kuka_arm)/urdf/target.urdf.xacro" />
+
+  <!-- Spawn a robot into Gazebo -->
+  <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-param target_description -urdf -x 2 -y 0.04 -z 0.9 -model target_box" />
+</launch>
